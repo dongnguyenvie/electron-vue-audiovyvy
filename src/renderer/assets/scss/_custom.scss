@@ -1,0 +1,59 @@
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.home {
+  &__wrapper {
+  }
+  &__ranking {
+    right: 0;
+    top: 0;
+    padding: 2px !important;
+    background: #000000b3;
+  }
+}
+.h-100 {
+  height: 100%;
+}
+.w-100 {
+  width: 100%;
+}
+.cursor-point {
+  cursor: pointer;
+}
+.loading-io {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000c2;
+  z-index: 99;
+}
+.audio-page {
+  &__audio {
+    width: 100%;
+    color: #000;
+    background: none;
+  }
+  .aplayer-thumb{
+    transform: scale(1) !important;
+  }
+  .aplayer-played > span {
+    transform: scale(1) !important;
+  }
+}
+.main {
+  &__search{
+    background: #424242;
+  }
+}
+
+.cursorPointer{
+  cursor: pointer;
+}
